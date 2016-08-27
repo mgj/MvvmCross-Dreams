@@ -28,11 +28,11 @@ The folder structure aims to have folders separated by their feature rather than
 
 The solution is released with 5 screens:  
 
-*   FirstView: <img src="https://artm.dk/files/github/mvvmcross-dreams/screenshots/1.png =100x100" width="48" height="48"> Shows simple text binding between input fields and textviews. Shows navigation, and passing of data, to other viewmodels
-*   SecondView: <img src="https://artm.dk/files/github/mvvmcross-dreams/screenshots/2.png =100x100" width="48" height="48"> Shows async initialization  (fetching data from network to show in view). The fetched data response is cached in a Realm.io database.
-*   ThirdView: <img src="https://artm.dk/files/github/mvvmcross-dreams/screenshots/3.png =100x100" width="48" height="48"> Shows how to use lists. On android, the example shows how to get the Material Design feeling by collapsing the toolbar (previously known as the actionbar) when the user scrolls the list.
-*   FourthView: <img src="https://artm.dk/files/github/mvvmcross-dreams/screenshots/4.png =100x100" width="48" height="48"> Shows how to make a burger menu
-*   FifthView: <img src="https://artm.dk/files/github/mvvmcross-dreams/screenshots/5.png =100x100" width="48" height="48"> Shows how to use dialogs in a threadsafe manner
+*   FirstView: <img src="https://artm.dk/files/github/mvvmcross-dreams/screenshots/1.png" width="48" height="48"> Shows simple text binding between input fields and textviews. Shows navigation, and passing of data, to other viewmodels
+*   SecondView: <img src="https://artm.dk/files/github/mvvmcross-dreams/screenshots/2.png" width="48" height="48"> Shows async initialization  (fetching data from network to show in view). The fetched data response is cached in a Realm.io database.
+*   ThirdView: <img src="https://artm.dk/files/github/mvvmcross-dreams/screenshots/3.png" width="48" height="48"> Shows how to use lists. On android, the example shows how to get the Material Design feeling by collapsing the toolbar (previously known as the actionbar) when the user scrolls the list.
+*   FourthView: <img src="https://artm.dk/files/github/mvvmcross-dreams/screenshots/4.png" width="48" height="48"> Shows how to make a burger menu
+*   FifthView: <img src="https://artm.dk/files/github/mvvmcross-dreams/screenshots/5.png" width="48" height="48"> Shows how to use dialogs in a threadsafe manner
 
 The solution uses NLog to log to the console and to disk (a logfile).  
 
