@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>MvvMCross Property</Title>
+      <Description>Insert a property block with a backing field and property change notification</Description>
+      <Shortcut>mvxprop</Shortcut>
+      <Author>Andrew Coates (based on Aboo's SO ReSharper Answer)</Author>
+      <HelpUrl>http://stackoverflow.com/questions/18200679/mvvmcross-code-snippets-for-visual-studio</HelpUrl>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>backingfield</ID>
+          <ToolTip></ToolTip>
+          <Default>propertyName</Default>
+        </Literal>
+        <Literal>
+          <ID>property</ID>
+          <ToolTip></ToolTip>
+          <Default>PropertyName</Default>
+        </Literal>
+        <Literal>
+          <ID>propertyType</ID>
+          <ToolTip></ToolTip>
+          <Default>int</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp">
+        <![CDATA[private $propertyType$ $backingfield$;
+        public $propertyType$ $property$
+        {
+          get { return $backingfield$; }
+          set { SetProperty(ref $backingfield$, value, "$property$"); }
+        }
+        $end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>MvvMCross Command</Title>
+      <Description>Insert a Command declaration for an MvvMCross View Model</Description>
+      <Shortcut>mvxcom</Shortcut>
+      <Author>Andrew Coates (based on Aboo's SO ReSharper Answer)</Author>
+      <HelpUrl>http://stackoverflow.com/questions/18200679/mvvmcross-code-snippets-for-visual-studio</HelpUrl>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>backingfield</ID>
+          <ToolTip></ToolTip>
+          <Default>commandName</Default>
+        </Literal>
+        <Literal>
+          <ID>Name</ID>
+          <ToolTip></ToolTip>
+          <Default>CommandName</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp">
+        <![CDATA[private MvxCommand $backingfield$Command;
+        public MvxCommand $Name$Command
+        {
+          get
+          {
+            $backingfield$Command = $backingfield$Command ?? new MvxCommand(Do$Name$Command);
+            return $backingfield$Command;
+          }
+        }
+
+        private void Do$Name$Command()
+        {
+          $end$
+        }
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>MvvMCross Async Command</Title>
+      <Description>Insert an Async Command declaration for an MvvMCross View Model</Description>
+      <Shortcut>mvxasynccom</Shortcut>
+      <Author>Andrew Coates (based on Aboo's SO ReSharper Answer)</Author>
+      <HelpUrl>http://stackoverflow.com/questions/18200679/mvvmcross-code-snippets-for-visual-studio</HelpUrl>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>backingfield</ID>
+          <ToolTip></ToolTip>
+          <Default>commandName</Default>
+        </Literal>
+        <Literal>
+          <ID>Name</ID>
+          <ToolTip></ToolTip>
+          <Default>CommandName</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp">
+        <![CDATA[private MvxAsyncCommand $backingfield$Command;
+        public MvxAsyncCommand $Name$Command
+        {
+          get
+          {
+            $backingfield$Command = $backingfield$Command ?? new MvxAsyncCommand(Do$Name$CommandAsync);
+            return $backingfield$Command;
+          }
+        }
+
+        private async Task Do$Name$CommandAsync()
+        {
+          $end$
+        }
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>MvvMCross Binding Set</Title>
+      <Description>Create a binding set and bind an element</Description>
+      <Shortcut>mvxset</Shortcut>
+      <Author>Andrew Coates (based on Aboo's SO ReSharper Answer)</Author>
+      <HelpUrl>http://stackoverflow.com/questions/18200679/mvvmcross-code-snippets-for-visual-studio</HelpUrl>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>viewName</ID>
+          <ToolTip></ToolTip>
+          <Default>viewName</Default>
+        </Literal>
+        <Literal>
+          <ID>element</ID>
+          <ToolTip></ToolTip>
+          <Default>element</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp">
+        <![CDATA[var set = this.CreateBindingSet<$viewName$View, $viewName$ViewModel>();
+        set.Bind($element$).To(vm => vm$end$);
+        set.Apply();
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

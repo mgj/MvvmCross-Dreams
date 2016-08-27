@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Base application theme. -->
+  <style name="DreamsTheme.Base" parent="Theme.AppCompat.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">#3F51B5</item>
+    <!-- Light Indigo -->
+    <item name="colorPrimaryDark">#3949AB</item>
+    <!-- Dark Indigo -->
+    <item name="colorAccent">#00B0FF</item>
+    <!-- Blue -->
+  </style>
+  <style name="DreamsTheme" parent="DreamsTheme.Base"></style>
+</resources>

@@ -1,0 +1,1 @@
+If you get an error on android with a bunch of JNI stackstraces, try manually deleting all "obj" and "bin" folders.
