@@ -1,5 +1,7 @@
 ## MvvmCross DREAMS
 
+[![Build status](https://ci.appveyor.com/api/projects/status/d4m23jnmblte0j5e?svg=true)](https://ci.appveyor.com/project/mgj/mvvmcross-dreams)
+
 MvvmCross DREAMS is an opinionated take on how to make an MvvmCross app. You can clone DREAMS, rename the application label and bundle identifier and be productive in minutes. No more worrying about naming conventions, PCL profiles, android support dependencies or which logging framework to use.  
 
 ### Features
