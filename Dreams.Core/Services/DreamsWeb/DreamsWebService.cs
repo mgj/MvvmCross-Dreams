@@ -4,16 +4,16 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Dreams.Core.Services.DreamsLog;
-using Dreams.Core.Services.DreamsFetcher;
+using artm.MvxPlugins.Fetcher.Services;
 
 namespace Dreams.Core.Services.DreamsWeb
 {
     public class DreamsWebService : IDreamsWebService
     {
         private readonly IDreamsLogService _log;
-        private readonly IDreamsFetcherService _fetcher;
+        private readonly IFetcherService _fetcher;
 
-        public DreamsWebService(IDreamsLogService logService, IDreamsFetcherService fetcher)
+        public DreamsWebService(IDreamsLogService logService, IFetcherService fetcher)
         {
             _log = logService;
             _fetcher = fetcher;

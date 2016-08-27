@@ -49,9 +49,6 @@
     <Compile Include="Services\Calculator\CalculatorService.cs" />
     <Compile Include="Services\Calculator\ICalculatorService.cs" />
     <Compile Include="Services\Dialog\IDialogService.cs" />
-    <Compile Include="Services\DreamsFetcher\DreamsFetcherService.cs" />
-    <Compile Include="Services\DreamsFetcher\Entities\UrlCacheInfo.cs" />
-    <Compile Include="Services\DreamsFetcher\IDreamsFetcherService.cs" />
     <Compile Include="Services\DreamsLog\IDreamsLogService.cs" />
     <Compile Include="Services\DreamsLog\DreamsLogSeverityLevel.cs" />
     <Compile Include="Services\DreamsWeb\DreamsWebService.cs" />
@@ -66,6 +63,10 @@
     <Compile Include="ViewModels\Third\ThirdViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="artm.MvxPlugins.Fetcher, Version=2.0.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\artm.MvxPlugins.Fetcher.2.0.5\lib\portable-net45+win+wpa81\artm.MvxPlugins.Fetcher.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="DotNetCross.Memory.Unsafe, Version=0.2.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\DotNetCross.Memory.Unsafe.0.2.2\lib\portable-net40+win8+sl4+wp7\DotNetCross.Memory.Unsafe.dll</HintPath>
       <Private>True</Private>

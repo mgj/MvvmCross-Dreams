@@ -1,4 +1,3 @@
-using Dreams.Core.Services.DreamsFetcher;
 using Dreams.Core.Services.DreamsWeb;
 using Dreams.Core.ViewModels.Fifth;
 using Dreams.Core.ViewModels.First;
@@ -11,8 +10,7 @@ namespace Dreams.Core
     {
         public override void Initialize()
         {
-            Mvx.ConstructAndRegisterSingleton<IDreamsFetcherService, DreamsFetcherService>();
-            Mvx.ConstructAndRegisterSingleton<IDreamsWebService, DreamsWebService>();
+            Mvx.LazyConstructAndRegisterSingleton<IDreamsWebService, DreamsWebService>();
 
             RegisterAppStart<FirstViewModel>();
         }
