@@ -1,4 +1,4 @@
-## Open sourcing MvvmCross DREAMS
+## MvvmCross DREAMS
 
 MvvmCross DREAMS is an opinionated take on how to make an MvvmCross app. You can clone DREAMS, rename the application label and bundle identifier and be productive in minutes. No more worrying about naming conventions, PCL profiles, android support dependencies or which logging framework to use.  
 
@@ -38,7 +38,7 @@ The solution uses NLog to log to the console and to disk (a logfile).
 
 ###  Thanks to
 
-*   [Stuart Lodge](https://github.com/slodge) and the community for [MvvmCross][mvx]
+*   [Stuart Lodge](https://github.com/slodge) and the community for [MvvmCross]([mvx])
 *   [Martijn van Dijk](https://github.com/martijn00) for his contributions to [MvvmCross][mvx]
 *   [Tomasz Cielecki](https://github.com/cheesebaron) for his MvvmCross plugins and contributions to [MvvmCross][mvx]
 *   [James Montemagno](https://github.com/jamesmontemagno) for his MvvmCross plugins 
@@ -51,3 +51,5 @@ The solution uses NLog to log to the console and to disk (a logfile).
 ### License
 
 [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
+
+[mvx]: https://github.com/slodge/MvvmCross
