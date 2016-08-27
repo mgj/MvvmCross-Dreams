@@ -28,11 +28,11 @@ The folder structure aims to have folders separated by their feature rather than
 
 The solution is released with 5 screens:  
 
-*   FirstView: Shows simple text binding between input fields and textviews. Shows navigation, and passing of data, to other viewmodels
-*   SecondView: Shows async initialization  (fetching data from network to show in view). The fetched data response is cached in a Realm.io database.
-*   ThirdView: Shows how to use lists. On android, the example shows how to get the Material Design feeling by collapsing the toolbar (previously known as the actionbar) when the user scrolls the list.
-*   FourthView: Shows how to make a burger menu
-*   FifthView: Shows how to use dialogs in a threadsafe manner
+*   FirstView: ![alt text](https://artm.dk/files/github/mvvmcross-dreams/screenshots/1.png "FirstView") Shows simple text binding between input fields and textviews. Shows navigation, and passing of data, to other viewmodels
+*   SecondView: ![alt text](https://artm.dk/files/github/mvvmcross-dreams/screenshots/2.png "SecondView") Shows async initialization  (fetching data from network to show in view). The fetched data response is cached in a Realm.io database.
+*   ThirdView: ![alt text](https://artm.dk/files/github/mvvmcross-dreams/screenshots/3.png "ThirdView") Shows how to use lists. On android, the example shows how to get the Material Design feeling by collapsing the toolbar (previously known as the actionbar) when the user scrolls the list.
+*   FourthView: ![alt text](https://artm.dk/files/github/mvvmcross-dreams/screenshots/4.png "FourthView") Shows how to make a burger menu
+*   FifthView: ![alt text](https://artm.dk/files/github/mvvmcross-dreams/screenshots/5.png "FifthView") Shows how to use dialogs in a threadsafe manner
 
 The solution uses NLog to log to the console and to disk (a logfile).  
 
