@@ -3,17 +3,17 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using Dreams.Core.Services.DreamsLog;
 using artm.MvxPlugins.Fetcher.Services;
+using artm.MvxPlugins.Logger.Services;
 
 namespace Dreams.Core.Services.DreamsWeb
 {
     public class DreamsWebService : IDreamsWebService
     {
-        private readonly IDreamsLogService _log;
+        private readonly ILoggerService _log;
         private readonly IFetcherService _fetcher;
 
-        public DreamsWebService(IDreamsLogService logService, IFetcherService fetcher)
+        public DreamsWebService(ILoggerService logService, IFetcherService fetcher)
         {
             _log = logService;
             _fetcher = fetcher;
@@ -34,7 +34,7 @@ namespace Dreams.Core.Services.DreamsWeb
             }
             catch (JsonException je)
             {
-                _log.Log("Failed to deserialize", DreamsLogSeverityLevel.Error, je);
+                _log.Log("Failed to deserialize", LoggerServiceSeverityLevel.Error, je);
             }
 
             return result;

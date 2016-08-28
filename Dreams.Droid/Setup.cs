@@ -3,10 +3,10 @@ using MvvmCross.Droid.Platform;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
 using MvvmCross.Platform;
-using Dreams.Droid.Services.Logger;
-using Dreams.Core.Services.DreamsLog;
 using Dreams.Core.Services.Dialog;
 using Dreams.Droid.Services.Dialog;
+using artm.MvxPlugins.Logger.Services;
+using artm.MvxPlugins.Logger.Droid.Services;
 
 namespace Dreams.Droid
 {
@@ -34,10 +34,8 @@ namespace Dreams.Droid
         {
             base.InitializePlatformServices();
 
-            Mvx.RegisterSingleton<IDreamsLogService>(() => new DreamsLogService(_applicationContext));
-            Mvx.Resolve<IDreamsLogService>(); // Trigger creation of singleton
-
             Mvx.ConstructAndRegisterSingleton<IDialogService, DialogService>();
+            Mvx.RegisterSingleton<ILoggerService>(() => new LoggerService(_applicationContext));
         }
     }
 }

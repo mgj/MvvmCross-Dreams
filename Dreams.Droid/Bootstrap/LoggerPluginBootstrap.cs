@@ -3,8 +3,8 @@ using MvvmCross.Platform.Plugins;
 
 namespace Dreams.Droid.Bootstrap
 {
-    public class FetcherPluginBootstrap
-        : MvxPluginBootstrapAction<artm.MvxPlugins.Fetcher.PluginLoader> 
+    public class LoggerPluginBootstrap
+        : MvxPluginBootstrapAction<artm.MvxPlugins.Logger.PluginLoader> 
         {
             
         }

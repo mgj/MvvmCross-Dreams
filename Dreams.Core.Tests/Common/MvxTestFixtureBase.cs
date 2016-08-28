@@ -1,5 +1,4 @@
 ﻿using Dreams.Core.Services.Calculator;
-using Dreams.Core.Services.DreamsLog;
 using Dreams.Core.Tests.Services.Calculator;
 using Moq;
 using MvvmCross.Core.Platform;

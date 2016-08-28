@@ -14,7 +14,7 @@ namespace Dreams.Core.ViewModels.First
     {
         private string _hello = string.Empty;
 
-        public FirstViewModel()
+        public FirstViewModel() : base()
         {
         }
 

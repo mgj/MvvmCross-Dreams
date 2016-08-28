@@ -1,21 +1,21 @@
 using System;
 using MvvmCross.Platform.Platform;
 using MvvmCross.Platform;
-using Dreams.Core.Services.DreamsLog;
+using artm.MvxPlugins.Logger.Services;
 
 namespace Dreams.Droid
 {
     public class DebugTrace : IMvxTrace
     {
-        private IDreamsLogService _log;
+        private ILoggerService _log;
 
-        private IDreamsLogService Log
+        private ILoggerService Log
         {
             get
             {
-                if (_log == null && Mvx.CanResolve<IDreamsLogService>())
+                if (_log == null && Mvx.CanResolve<ILoggerService>())
                 {
-                    _log = Mvx.Resolve<IDreamsLogService>();
+                    _log = Mvx.Resolve<ILoggerService>();
                 }
 
                 return _log;
@@ -50,23 +50,23 @@ namespace Dreams.Droid
             }
             catch (FormatException fe)
             {
-                Log?.Log($"Exception during trace of {level} {message}", DreamsLogSeverityLevel.Error, fe);
+                Log?.Log($"Exception during trace of {level} {message}", LoggerServiceSeverityLevel.Error, fe);
             }
         }
 
-        private static DreamsLogSeverityLevel AllLogSeverityLevelFactory(MvxTraceLevel level)
+        private static LoggerServiceSeverityLevel AllLogSeverityLevelFactory(MvxTraceLevel level)
         {
-            var result = DreamsLogSeverityLevel.Debug;
+            var result = LoggerServiceSeverityLevel.Debug;
             switch (level)
             {
                 case MvxTraceLevel.Diagnostic:
-                    result = DreamsLogSeverityLevel.Debug;
+                    result = LoggerServiceSeverityLevel.Debug;
                     break;
                 case MvxTraceLevel.Warning:
-                    result = DreamsLogSeverityLevel.Warning;
+                    result = LoggerServiceSeverityLevel.Warning;
                     break;
                 case MvxTraceLevel.Error:
-                    result = DreamsLogSeverityLevel.Error;
+                    result = LoggerServiceSeverityLevel.Error;
                     break;
                 default:
                     break;

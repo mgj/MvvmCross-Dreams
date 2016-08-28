@@ -3,9 +3,9 @@ using Dreams.Core.ViewModels.Common;
 using Dreams.Core.Common;
 using MvvmCross.Platform;
 using MvvmCross.Binding.BindingContext;
-using Dreams.Core.Services.DreamsLog;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using Android.Support.V7.Widget;
+using artm.MvxPlugins.Logger.Services;
 
 namespace Dreams.Droid.Views.Common
 {
@@ -59,15 +59,15 @@ namespace Dreams.Droid.Views.Common
             get;
         }
 
-        private IDreamsLogService _log;
+        private ILoggerService _log;
 
-        protected IDreamsLogService Log
+        protected ILoggerService Log
         {
             get
             {
-                if (_log == null && Mvx.CanResolve<IDreamsLogService>())
+                if (_log == null && Mvx.CanResolve<ILoggerService>())
                 {
-                    _log = Mvx.Resolve<IDreamsLogService>();
+                    _log = Mvx.Resolve<ILoggerService>();
                 }
 
                 return _log;
