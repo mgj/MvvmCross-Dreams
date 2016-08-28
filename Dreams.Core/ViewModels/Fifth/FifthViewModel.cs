@@ -1,4 +1,4 @@
-﻿using Dreams.Core.Services.Dialog;
+﻿using artm.MvxPlugins.Dialog.Services;
 using Dreams.Core.ViewModels.Common;
 using MvvmCross.Core.ViewModels;
 using System;

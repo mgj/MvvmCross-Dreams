@@ -3,10 +3,10 @@ using MvvmCross.Droid.Platform;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
 using MvvmCross.Platform;
-using Dreams.Core.Services.Dialog;
-using Dreams.Droid.Services.Dialog;
 using artm.MvxPlugins.Logger.Services;
 using artm.MvxPlugins.Logger.Droid.Services;
+using artm.MvxPlugins.Dialog.Services;
+using artm.MvxPlugins.Dialog.Droid.Services;
 
 namespace Dreams.Droid
 {

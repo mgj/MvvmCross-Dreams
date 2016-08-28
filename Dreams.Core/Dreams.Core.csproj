@@ -48,7 +48,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Calculator\CalculatorService.cs" />
     <Compile Include="Services\Calculator\ICalculatorService.cs" />
-    <Compile Include="Services\Dialog\IDialogService.cs" />
     <Compile Include="Services\DreamsWeb\DreamsWebService.cs" />
     <Compile Include="Services\DreamsWeb\DreamsWebServiceDTO.cs" />
     <Compile Include="Services\DreamsWeb\IDreamsWebService.cs" />
@@ -61,12 +60,16 @@
     <Compile Include="ViewModels\Third\ThirdViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="artm.MvxPlugins.Fetcher, Version=2.0.11.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\artm.MvxPlugins.Fetcher.2.0.11\lib\portable-net45+win+wpa81\artm.MvxPlugins.Fetcher.dll</HintPath>
+    <Reference Include="artm.MvxPlugins.Dialog, Version=2.0.15.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\artm.MvxPlugins.Dialog.2.0.15\lib\portable-net45+win+wpa81\artm.MvxPlugins.Dialog.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="artm.MvxPlugins.Logger, Version=2.0.11.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\artm.MvxPlugins.Logger.2.0.11\lib\portable-net45+win+wpa81\artm.MvxPlugins.Logger.dll</HintPath>
+    <Reference Include="artm.MvxPlugins.Fetcher, Version=2.0.15.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\artm.MvxPlugins.Fetcher.2.0.15\lib\portable-net45+win+wpa81\artm.MvxPlugins.Fetcher.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="artm.MvxPlugins.Logger, Version=2.0.15.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\artm.MvxPlugins.Logger.2.0.15\lib\portable-net45+win+wpa81\artm.MvxPlugins.Logger.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="DotNetCross.Memory.Unsafe, Version=0.2.2.0, Culture=neutral, processorArchitecture=MSIL">
