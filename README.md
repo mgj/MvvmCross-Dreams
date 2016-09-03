@@ -15,7 +15,7 @@ DREAMS is now available as a project template to make it even easier for you to 
 4. Change the build action for MyProject.Core.Common.DreamsResources.resx to be "Embedded Resource" instead of "Content"
 5. Build and deploy the app!
 
-Youtube video showing the complete process in less than 2 minutes: https://youtu.be/ZE7MKovMs4s
+Youtube video showing the complete process in less than 2 minutes: [![Getting started with DREAMS](https://img.youtube.com/vi/ZE7MKovMs4s/0.jpg)](https://www.youtube.com/watch?v=ZE7MKovMs4s)
 
 ### Features
 
