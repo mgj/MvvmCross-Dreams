@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreams.Droid", "Dreams.Droi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreams.Core.Tests", "Dreams.Core.Tests\Dreams.Core.Tests.csproj", "{48608560-DFA6-47E9-9033-B090F6C2356B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreams.Core.VSIX", "Dreams.Core.VSIX\Dreams.Core.VSIX.csproj", "{CCE532C5-1B52-42C4-A6F7-79B5BE785779}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,10 +29,6 @@ Global
 		{48608560-DFA6-47E9-9033-B090F6C2356B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48608560-DFA6-47E9-9033-B090F6C2356B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48608560-DFA6-47E9-9033-B090F6C2356B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCE532C5-1B52-42C4-A6F7-79B5BE785779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCE532C5-1B52-42C4-A6F7-79B5BE785779}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCE532C5-1B52-42C4-A6F7-79B5BE785779}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCE532C5-1B52-42C4-A6F7-79B5BE785779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
