@@ -60,6 +60,7 @@ The solution uses NLog to log to the console and to disk (a logfile).
 *   [Martijn van Dijk](https://github.com/martijn00) for his contributions to [MvvmCross][mvx]
 *   [Tomasz Cielecki](https://github.com/cheesebaron) for his MvvmCross plugins and contributions to [MvvmCross][mvx]
 *   [James Montemagno](https://github.com/jamesmontemagno) for his MvvmCross plugins 
+*   [Jim Bennett](https://github.com/jimbobbennett) for his MvvmCross templates
 *   [Realm.io](http://realm.io) - Brilliant database
 *   [Polly](https://github.com/App-vNext/Polly) - Brilliant error handling library
 *   [NLog](http://nlog-project.org/) - Brilliant logging library
