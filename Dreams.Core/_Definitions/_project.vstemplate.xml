@@ -1,8 +1,8 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>MvvmCross DREAMS Core</Name>
-    <Description>MvvmCross DREAMS Core</Description>
-    <DefaultName>Dreams.Core</DefaultName>
+    <Name>Template name here</Name>
+    <Description>Project description here</Description>
+    <DefaultName>$rootnamespace$</DefaultName>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
