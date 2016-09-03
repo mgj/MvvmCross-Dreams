@@ -114,10 +114,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Common\DreamsResources.resx">
+    <EmbeddedResource Include="Common\DreamsResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>DreamsResources.Designer.cs</LastGenOutput>
-    </Content>
+    </EmbeddedResource>
     <Content Include="_Definitions\_project.vstemplate.xml" />
     <Content Include="_preprocess.xml" />
   </ItemGroup>
