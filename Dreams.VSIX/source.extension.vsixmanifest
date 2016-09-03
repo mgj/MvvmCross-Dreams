@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="artm.Dreams" Version="1.0" Language="en-US" Publisher="Artm" />
+    <Identity Id="artm.Dreams" Version="3.0.0" Language="en-US" Publisher="Artm" />
     <DisplayName>artm.Dreams</DisplayName>
     <Description xml:space="preserve">MvvmCross Dreams project templates</Description>
     <MoreInfo>https://github.com/mgj/MvvmCross-Dreams</MoreInfo>
