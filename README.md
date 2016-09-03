@@ -8,7 +8,7 @@ MvvmCross DREAMS is an opinionated take on how to make an MvvmCross app. You can
 
 DREAMS is now available as a project template to make it even easier for you to get up and running as fast as possible. Just follow these steps:
 
-1. Install the DREAMS project template: https://visualstudiogallery.msdn.microsoft.com/19537bba-c65f-4fb0-b256-83eb7b493c1c
+1. Install the DREAMS project template, either directly from visual studio (New project -> Online -> C# -> MvvmCross) or manually from https://visualstudiogallery.msdn.microsoft.com/19537bba-c65f-4fb0-b256-83eb7b493c1c
 2. Add new project - type MvvmCross DREAMS Core. OBS: Must be postfixed with ".Core" ! For example: "MyProject.Core"
   - It will spam a bunch of errors, you can safely ignore these. They are resolved by restoring nuget packages which happens automatically on build
 3. Add new project - type "MvvmCross DREAMS Droid". OBS: Must be postfixed with ".Droid" ! For example: "MyProject.Droid"
