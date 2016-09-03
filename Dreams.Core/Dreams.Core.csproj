@@ -114,10 +114,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Common\DreamsResources.resx">
+    <Content Include="Common\DreamsResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>DreamsResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.0\analyzers\dotnet\cs\Newtonsoft.Json.dll" />

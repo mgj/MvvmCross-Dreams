@@ -1,0 +1,38 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>MvvmCross DREAMS Droid project</Name>
+    <Description>MvvmCross DREAMS Droid</Description>
+    <DefaultName>Dreams.Droid</DefaultName>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>sw-file-icon.png</Icon>
+    <TemplateID>$guid1$</TemplateID>
+    <!-- Indicates how many parent folders this item template should appear in -->
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$rootnamespace$.csproj" File="Dreams.Droid.csproj" ReplaceParameters="true">
+    </Project>
+    <!--
+    <CustomParameters>
+      <CustomParameter Name="$TemplateName$" Value="Add template name here" />
+      <CustomParameter Name="$TemplateID$" Value="Add GUID here" />
+	    <CustomParameter Name="$TemplateType$" Value="Item" />
+    </CustomParameters>
+    -->
+  </TemplateContent>
+  <!--
+  
+  <WizardExtension>
+    <Assembly>LigerShark.Templates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+    <FullClassName>LigerShark.Templates.GoogleAnalyticsWizard</FullClassName>
+  </WizardExtension>
+    -->
+
+  </VSTemplate>
