@@ -4,6 +4,16 @@
 
 MvvmCross DREAMS is an opinionated take on how to make an MvvmCross app. You can clone DREAMS, rename the application label and bundle identifier and be productive in minutes. No more worrying about naming conventions, PCL profiles, android support dependencies or which logging framework to use.  
 
+### Now available as Visual Studio project template!
+
+DREAMS is now available as a project template to make it even easier for you to get up and running as fast as possible. Just follow these steps:
+
+1. Install the DREAMS project template
+2. Add new project - type MvvmCross DREAMS Core. OBS: Must be postfixed with ".Core" ! For example: "MyProject.Core"
+3. Add new project - type "MvvmCross DREAMS Droid". OBS: Must be postfixed with ".Droid" ! For example: "MyProject.Droid"
+4. Change the build action for MyProject.Core.Common.DreamsResources.resx to be "Embedded Resource" instead of "Content"
+5. Build and deploy the app!
+
 ### Features
 
 *   "Normal" full screen navigation
