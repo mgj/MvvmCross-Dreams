@@ -118,6 +118,8 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>DreamsResources.Designer.cs</LastGenOutput>
     </Content>
+    <Content Include="_Definitions\_project.vstemplate.xml" />
+    <Content Include="_preprocess.xml" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.0\analyzers\dotnet\cs\Newtonsoft.Json.dll" />
