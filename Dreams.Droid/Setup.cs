@@ -12,12 +12,9 @@ namespace Dreams.Droid
 {
     public class Setup : MvxAndroidSetup
     {
-        private Context _applicationContext;
-
         public Setup(Context applicationContext)
             : base(applicationContext)
         {
-            _applicationContext = applicationContext;
         }
 
         protected override IMvxApplication CreateApp()
@@ -35,7 +32,7 @@ namespace Dreams.Droid
             base.InitializePlatformServices();
 
             Mvx.ConstructAndRegisterSingleton<IDialogService, DialogService>();
-            Mvx.RegisterSingleton<ILoggerService>(() => new LoggerService(_applicationContext));
+            Mvx.RegisterSingleton<ILoggerService>(() => new LoggerService(ApplicationContext));
         }
     }
 }
