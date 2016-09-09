@@ -1,4 +1,4 @@
-<VSTemplate Version="3.0.3" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+<VSTemplate Version="3.0.4" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>MvvmCross DREAMS Core project</Name>
     <Description>MvvmCross DREAMS Core</Description>

@@ -75,6 +75,9 @@
     <TemplateReference Include="Dreams.Core.csproj">
       <PathToProject>../Dreams.Core/Dreams.Core.csproj</PathToProject>
     </TemplateReference>
+    <TemplateReference Include="Dreams.Core.Tests.csproj">
+      <PathToProject>../Dreams.Core.Tests/Dreams.Core.Tests.csproj</PathToProject>
+    </TemplateReference>
     <TemplateReference Include="Dreams.Droid.csproj">
       <PathToProject>../Dreams.Droid/Dreams.Droid.csproj</PathToProject>
     </TemplateReference>
