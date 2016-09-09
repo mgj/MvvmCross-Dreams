@@ -114,12 +114,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="sw-file-icon.png" />
+    <Content Include="_Definitions\_project.vstemplate.xml" />
+    <Content Include="_Definitions\_project.vstemplate_BAK.xml" />
     <Content Include="_preprocess.xml" />
+    <Content Include="_preprocess_BAK.xml" />
     <EmbeddedResource Include="Common\DreamsResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>DreamsResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Content Include="_Definitions\_project.vstemplate.xml" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.0\analyzers\dotnet\cs\Newtonsoft.Json.dll" />
