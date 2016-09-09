@@ -114,6 +114,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="_preprocess.xml" />
     <EmbeddedResource Include="Common\DreamsResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>DreamsResources.Designer.cs</LastGenOutput>
