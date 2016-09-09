@@ -2,7 +2,9 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/d4m23jnmblte0j5e?svg=true)](https://ci.appveyor.com/project/mgj/mvvmcross-dreams)
 
-Xamarin MvvmCross DREAMS is an opinionated take on how to make an MvvmCross app. You can clone DREAMS, rename the application label and bundle identifier and be productive in minutes. No more worrying about naming conventions, PCL profiles, android support dependencies or which logging framework to use.  
+Xamarin MvvmCross DREAMS is an opinionated take on how to make an MvvmCross app. If you have any comments, concerns, critique or ideas, please create an issue (or pull request :D)
+
+No more worrying about naming conventions, PCL profiles, android support dependencies or which logging framework to use.  
 
 ### Now available as Visual Studio project template!
 
@@ -14,11 +16,7 @@ DREAMS is now available as a project template to make it even easier for you to 
 2. Add new project - type MvvmCross DREAMS Core. OBS: Must be postfixed with ".Core" ! For example: "MyProject.Core"
   - It will spam a bunch of errors, you can safely ignore these. They are resolved by restoring nuget packages which happens automatically on build
 3. Add new project - type "MvvmCross DREAMS Droid". OBS: Must be postfixed with ".Droid" ! For example: "MyProject.Droid"
-4. Change the build action for MyProject.Core.Common.DreamsResources.resx to be "Embedded Resource" instead of "Content"
-5. Build and deploy the app!
-
-Youtube video showing the complete process in less than 2 minutes: https://www.youtube.com/watch?v=ZE7MKovMs4s
-[![Getting started with DREAMS](https://img.youtube.com/vi/ZE7MKovMs4s/0.jpg)](https://www.youtube.com/watch?v=ZE7MKovMs4s)
+4. Build and deploy the app!
 
 ### Features
 
