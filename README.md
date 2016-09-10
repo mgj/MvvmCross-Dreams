@@ -13,9 +13,9 @@ DREAMS is now available as a project template to make it even easier for you to 
 1. Install the DREAMS project template from visual studio (Tools -> Extensions and Updates... -> Search for "MvvmCross DREAMS" or "artm.Dreams")
 * <img src="https://artm.dk/files/github/mvvmcross-dreams/visual_studio_online.png" width="640" height="360"><br />
 * or manually from https://visualstudiogallery.msdn.microsoft.com/19537bba-c65f-4fb0-b256-83eb7b493c1c
-2. Add new project - type MvvmCross DREAMS Core. OBS: Must be postfixed with ".Core" ! For example: "MyProject.Core"
+2. Add new project of the type MvvmCross DREAMS Core (C#/MvvmCross). OBS: Should be postfixed with ".Core". For example: "MyProject.Core". Solution name can be anything you want.
   - It will spam a bunch of errors, you can safely ignore these. They are resolved by restoring nuget packages which happens automatically on build
-3. Add new project - type "MvvmCross DREAMS Droid". OBS: Must be postfixed with ".Droid" ! For example: "MyProject.Droid"
+3. Add new project of the type "MvvmCross DREAMS Droid" (C#/MvvmCross). OBS: Should be postfixed with ".Droid". For example: "MyProject.Droid"
 4. Build and deploy the app!
 
 ### Features
