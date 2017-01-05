@@ -3,7 +3,6 @@
   <ItemTemplates />
   <ProjectTemplates>
     <ProjectTemplate Path="..\Dreams.Core\_Definitions\_project.vstemplate.xml" Name="MvvmCross DREAMS Core project" Description="MvvmCross DREAMS Core" ProjectType="CSharp" ProjectSubType="" />
-    <ProjectTemplate Path="..\Dreams.Droid\_Definitions\_project.vstemplate.xml" Name="MvvmCross DREAMS Droid project" Description="MvvmCross DREAMS Droid" ProjectType="CSharp" ProjectSubType="" />
   </ProjectTemplates>
   <Snippets />
 </TemplateReport>

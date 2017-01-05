@@ -226,7 +226,6 @@
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\Common\DreamsViewBase.cs" />
     <Compile Include="Views\Fifth\FifthView.cs" />
-    <Compile Include="Views\FirstView.cs" />
     <Compile Include="Views\First\FirstView.cs" />
     <Compile Include="Views\Fourth\FourthView.cs" />
     <Compile Include="Views\Second\SecondView.cs" />
@@ -277,7 +276,6 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SplashScreen.axml" />
-    <AndroidResource Include="Resources\layout\FirstView.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />
@@ -325,10 +323,6 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_menu_white_24dp.png" />
     <AndroidResource Include="Resources\values\SplashStyle.xml" />
     <AndroidResource Include="Resources\drawable\splash.png" />
-    <Content Include="sw-file-icon.png" />
-    <Content Include="ToDo-MvvmCross\_ Droid UI.txt" />
-    <Content Include="_Definitions\_project.vstemplate.xml" />
-    <Content Include="_preprocess.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

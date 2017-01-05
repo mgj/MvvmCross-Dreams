@@ -1,14 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="artm.dk.MvvmCross-Dreams" Version="3.0.3" Language="en-US" Publisher="Artm" />
-    <DisplayName>Xamarin MvvmCross DREAMS</DisplayName>
-    <Description xml:space="preserve">Xamarin MvvmCross DREAMS project templates</Description>
-    <MoreInfo>https://github.com/mgj/MvvmCross-Dreams</MoreInfo>
-    <License>LICENSE</License>
-    <Icon>android-logo.png</Icon>
-    <PreviewImage>android-logo.png</PreviewImage>
-    <Tags>xamarin mvvmcross csharp mvx template android xamarin.android uwp ios artm dreams</Tags>
+    <Identity Id="Dreams.VSIX.Mikkel Jensen.d1d9c4d3-ee7b-4a43-8c50-536793f2474d" Version="1.0" Language="en-US" Publisher="Mikkel Jensen" />
+    <DisplayName>Dreams.VSIX</DisplayName>
+    <Description>Empty VSIX Project.</Description>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
