@@ -60,20 +60,20 @@
     <Compile Include="ViewModels\Third\ThirdViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="artm.MvxPlugins.Dialog, Version=2.0.15.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\artm.MvxPlugins.Dialog.2.0.15\lib\portable-net45+win+wpa81\artm.MvxPlugins.Dialog.dll</HintPath>
+    <Reference Include="artm.MvxPlugins.Dialog, Version=2.0.16.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\artm.MvxPlugins.Dialog.2.0.16\lib\portable-net45+win+wpa81\artm.MvxPlugins.Dialog.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="artm.MvxPlugins.Fetcher, Version=2.0.15.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\artm.MvxPlugins.Fetcher.2.0.15\lib\portable-net45+win+wpa81\artm.MvxPlugins.Fetcher.dll</HintPath>
+    <Reference Include="artm.MvxPlugins.Fetcher, Version=2.0.16.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\artm.MvxPlugins.Fetcher.2.0.16\lib\portable-net45+win+wpa81\artm.MvxPlugins.Fetcher.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="artm.MvxPlugins.Logger, Version=2.0.15.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\artm.MvxPlugins.Logger.2.0.15\lib\portable-net45+win+wpa81\artm.MvxPlugins.Logger.dll</HintPath>
+    <Reference Include="artm.MvxPlugins.Logger, Version=2.0.16.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\artm.MvxPlugins.Logger.2.0.16\lib\portable-net45+win+wpa81\artm.MvxPlugins.Logger.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="DotNetCross.Memory.Unsafe, Version=0.2.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\DotNetCross.Memory.Unsafe.0.2.2\lib\portable-net40+win8+sl4+wp7\DotNetCross.Memory.Unsafe.dll</HintPath>
+    <Reference Include="DotNetCross.Memory.Unsafe, Version=0.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetCross.Memory.Unsafe.0.2.3.4\lib\netstandard1.0\DotNetCross.Memory.Unsafe.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ModernHttpClient, Version=2.4.2.0, Culture=neutral, processorArchitecture=MSIL">
@@ -81,19 +81,19 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="MvvmCross.Binding, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MvvmCross.Binding.4.2.3\lib\portable-net45+win+wpa81+wp80\MvvmCross.Binding.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Binding.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MvvmCross.Core, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MvvmCross.Core.4.2.3\lib\portable-net45+win+wpa81+wp80\MvvmCross.Core.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.Core.4.4.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MvvmCross.Localization, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MvvmCross.Binding.4.2.3\lib\portable-net45+win+wpa81+wp80\MvvmCross.Localization.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Localization.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MvvmCross.Platform, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MvvmCross.Platform.4.2.3\lib\portable-net45+win+wpa81+wp80\MvvmCross.Platform.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.Platform.4.4.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Platform.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -104,8 +104,12 @@
       <HintPath>..\packages\Polly-Signed.4.3.0\lib\portable-net45+netcore45+wpa81+wp8\Polly.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Realm, Version=0.77.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Realm.0.77.2\lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+Xamarin.iOS10+monotouch+Xamarin.Mac\Realm.dll</HintPath>
+    <Reference Include="Realm, Version=0.81.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Realm.0.81.0\lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+Xamarin.iOS10+monotouch+Xamarin.Mac\Realm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Remotion.Linq, Version=2.1.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Remotion.Linq.2.1.1\lib\portable-net45+win+wpa81+wp80\Remotion.Linq.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
@@ -136,9 +140,9 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets'))" />
-    <Error Condition="!Exists('..\packages\Realm.0.77.2\build\Realm.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Realm.0.77.2\build\Realm.targets'))" />
+    <Error Condition="!Exists('..\packages\Realm.0.81.0\build\Realm.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Realm.0.81.0\build\Realm.targets'))" />
   </Target>
-  <Import Project="..\packages\Realm.0.77.2\build\Realm.targets" Condition="Exists('..\packages\Realm.0.77.2\build\Realm.targets')" />
+  <Import Project="..\packages\Realm.0.81.0\build\Realm.targets" Condition="Exists('..\packages\Realm.0.81.0\build\Realm.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

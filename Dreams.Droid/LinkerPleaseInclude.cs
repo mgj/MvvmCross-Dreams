@@ -13,14 +13,14 @@ namespace Dreams.Droid
     {
         public void Include(Button button)
         {
-            button.Click += (s, e) => button.Text = button.Text + string.Empty;
+            button.Click += (s,e) => button.Text = button.Text + "";
         }
 
         public void Include(CheckBox checkBox)
         {
             checkBox.CheckedChange += (sender, args) => checkBox.Checked = !checkBox.Checked;
         }
-
+        
         public void Include(Switch @switch)
         {
             @switch.CheckedChange += (sender, args) => @switch.Checked = !@switch.Checked;
@@ -28,19 +28,19 @@ namespace Dreams.Droid
 
         public void Include(View view)
         {
-            view.Click += (s, e) => view.ContentDescription = view.ContentDescription + string.Empty;
+            view.Click += (s, e) => view.ContentDescription = view.ContentDescription + "";
         }
 
         public void Include(TextView text)
         {
-            text.TextChanged += (sender, args) => text.Text = string.Empty + text.Text;
-            text.Hint = string.Empty + text.Hint;
+            text.TextChanged += (sender, args) => text.Text = "" + text.Text;
+            text.Hint = "" + text.Hint;
         }
-
+        
         public void Include(CheckedTextView text)
         {
-            text.TextChanged += (sender, args) => text.Text = string.Empty + text.Text;
-            text.Hint = string.Empty + text.Hint;
+            text.TextChanged += (sender, args) => text.Text = "" + text.Text;
+            text.Hint = "" + text.Hint;
         }
 
         public void Include(CompoundButton cb)
@@ -55,38 +55,31 @@ namespace Dreams.Droid
 
         public void Include(Activity act)
         {
-            act.Title = act.Title + string.Empty;
+            act.Title = act.Title + "";
         }
 
         public void Include(INotifyCollectionChanged changed)
         {
-            changed.CollectionChanged += (s, e) => { var test = $"{e.Action}{e.NewItems}{e.NewStartingIndex}{e.OldItems}{e.OldStartingIndex}"; };
+            changed.CollectionChanged += (s,e) => { var test = $"{e.Action}{e.NewItems}{e.NewStartingIndex}{e.OldItems}{e.OldStartingIndex}"; };
         }
 
         public void Include(ICommand command)
         {
-            command.CanExecuteChanged += (s, e) =>
-            {
-                if (command.CanExecute(null))
-                {
-                    command.Execute(null);
-                }
-            };
+            command.CanExecuteChanged += (s, e) => { if (command.CanExecute(null)) command.Execute(null); };
         }
-
+        
         public void Include(MvvmCross.Platform.IoC.MvxPropertyInjector injector)
         {
-            injector = new MvvmCross.Platform.IoC.MvxPropertyInjector();
-        }
+            injector = new MvvmCross.Platform.IoC.MvxPropertyInjector ();
+        } 
 
         public void Include(System.ComponentModel.INotifyPropertyChanged changed)
         {
-            changed.PropertyChanged += (sender, e) =>
-            {
+            changed.PropertyChanged += (sender, e) =>  {
                 var test = e.PropertyName;
             };
         }
-
+        
         public void Include(MvxTaskBasedBindingContext context)
         {
             context.Dispose();
