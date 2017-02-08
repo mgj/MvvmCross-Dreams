@@ -232,6 +232,9 @@
     <Compile Include="Views\Third\ThirdView.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="sw-file-icon.png" />
+    <Content Include="_Definitions\_project.vstemplate.xml" />
+    <Content Include="_preprocess.xml" />
     <None Include="Dreams.Droid.ruleset" />
     <Content Include="NLog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -306,7 +309,9 @@
     <AndroidResource Include="Resources\anim\fadein.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\anim\fadeout.xml" />
+    <AndroidResource Include="Resources\anim\fadeout.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="FodyWeavers.xml" />

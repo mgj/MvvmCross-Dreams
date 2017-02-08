@@ -8,7 +8,6 @@
     <item name="colorPrimaryDark">#3949AB</item>
     <!-- Dark Indigo -->
     <item name="colorAccent">#00B0FF</item>
-    <!-- Blue -->
   </style>
   <style name="DreamsTheme" parent="DreamsTheme.Base"></style>
 </resources>
